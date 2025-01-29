@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.WebAPI", "ToDoApp.WebAPI\ToDoApp.WebAPI.csproj", "{843F2272-C931-4752-A11D-48BC1FE32D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.Data", "ToDoApp.Data\ToDoApp.Data.csproj", "{803B5DEA-33A9-4EC0-9EB1-0121D11F81E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp.AzureFunctions", "ToDoApp.AzureFunctions\ToDoApp.AzureFunctions.csproj", "{08CDD72C-6E42-4BDC-8F13-519DD429F1D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843F2272-C931-4752-A11D-48BC1FE32D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843F2272-C931-4752-A11D-48BC1FE32D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843F2272-C931-4752-A11D-48BC1FE32D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843F2272-C931-4752-A11D-48BC1FE32D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803B5DEA-33A9-4EC0-9EB1-0121D11F81E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803B5DEA-33A9-4EC0-9EB1-0121D11F81E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803B5DEA-33A9-4EC0-9EB1-0121D11F81E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803B5DEA-33A9-4EC0-9EB1-0121D11F81E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CDD72C-6E42-4BDC-8F13-519DD429F1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CDD72C-6E42-4BDC-8F13-519DD429F1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CDD72C-6E42-4BDC-8F13-519DD429F1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CDD72C-6E42-4BDC-8F13-519DD429F1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
